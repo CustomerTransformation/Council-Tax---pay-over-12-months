@@ -1,0 +1,16 @@
+[
+    {
+        "ID": "58adaa3b9906f",
+        "Name": "Council tax - pay over 12 months email",
+        "Type": "EMAIL",
+        "LIM_id": "83ef69d1-2c5e-11e5-ad20-22000a7a05f5",
+        "Editable": true,
+        "LIM_name": "Portsmouth",
+        "Category": "Benefits and Payments",
+        "data_type": "integration-lookup",
+        "allow_offline": 0,
+        "Output_template": "{\"lookup_validation\":\"0\",\"subject\":\"Council tax - pay over 12 months {reference}\",\"fromName\":\"Portsmouth City Council\",\"from\":\"noreply@portsmouthcc.gov.uk\",\"recipients_to\":\"{custdetails/Email_Address_out}\",\"recipients_cc\":\"\",\"recipients_bcc\":\"\",\"pdf_attachments\":\"\",\"body\":\"<div>\\n<div><span style=\\\"font-family: arial, helvetica, sans-serif; font-size: 12pt;\\\">Dear {custdetails/Title}&nbsp;{custdetails/First_Name}&nbsp;{custdetails/Surname},<br /></span><br /><span style=\\\"font-family: arial, helvetica, sans-serif; font-size: 12pt;\\\">Thank you for submitting a form using My Portsmouth. </span><br /><br /><span style=\\\"font-family: arial, helvetica, sans-serif; font-size: 12pt;\\\">The form will be processed within 10 working days.</span></div>\\n</div>\\n<div><link href=\\\"http://officewebapps.ad.portsmouth.gov.uk:80/o/resources/1033/EditSurface.css?bn=120740492\\\" rel=\\\"stylesheet\\\" type=\\\"text/css\\\" /></div>\\n<div>\\n<p class=\\\"Paragraph SCX187810420\\\" xml:lang=\\\"EN-GB\\\"><span class=\\\"TextRun SCX187810420\\\" xml:lang=\\\"EN-GB\\\" style=\\\"font-family: arial, helvetica, sans-serif; font-size: 12pt;\\\"><span class=\\\"NormalTextRun SCX187810420\\\">After this time you will be sent an updated council tax bill.</span></span></p>\\n<span style=\\\"font-family: arial, helvetica, sans-serif; font-size: 12pt;\\\">This is an automated response; please do not reply to this email.</span><br /><br /><span style=\\\"font-family: arial, helvetica, sans-serif; font-size: 12pt;\\\">Yours sincerely,</span></div>\\n<div></div>\\n<div><br /><span style=\\\"font-family: arial, helvetica, sans-serif; font-size: 12pt;\\\">Portsmouth City Council</span></div>\",\"attachments\":\"\"}",
+        "log_only_on_error": 0,
+        "error_notification": "{\"LIM_id\":\"3f07ecf4-0dfa-11e2-b0b9-12313b03ed59\",\"LIM_name\":\"LIM14\",\"recipients_to\":\"daniela.dutu@portsmouthcc.gov.uk\"}"
+    }
+]

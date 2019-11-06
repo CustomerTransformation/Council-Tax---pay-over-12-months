@@ -1,0 +1,16 @@
+[
+    {
+        "ID": "58aeb19e8008e",
+        "Name": "Council tax - pay over 12 months notification email (no email)",
+        "Type": "EMAIL",
+        "LIM_id": "83ef69d1-2c5e-11e5-ad20-22000a7a05f5",
+        "Editable": true,
+        "LIM_name": "Portsmouth",
+        "Category": "Benefits and Payments",
+        "data_type": "integration-lookup",
+        "allow_offline": 0,
+        "Output_template": "{\"lookup_validation\":\"0\",\"subject\":\"Council tax - pay over 12 months {reference}\",\"fromName\":\"{custdetails/Title} {custdetails/First_Name} {custdetails/Surname} (no email)\",\"from\":\"noreply@portsmouthcc.gov.uk\",\"recipients_to\":\"revenues12month@portsmouthcc.gov.uk\",\"recipients_cc\":\"\",\"recipients_bcc\":\"\",\"pdf_attachments\":\"58ada163f2ef8\",\"body\":\"<div>\\n<div><span style=\\\"font-family: arial, helvetica, sans-serif; font-size: 12pt;\\\">Dear Council tax,</span></div>\\n<div></div>\\n<div>\\n<p><span style=\\\"font-family: arial, helvetica, sans-serif; font-size: 12pt;\\\">Please see the PDF attached regarding paying council tax in 12 monthly instalments&nbsp;from:</span></p>\\n<p><span style=\\\"font-family: arial, helvetica, sans-serif; font-size: 12pt;\\\">Name:&nbsp;<span>{custdetails/Title_out}&nbsp;<span>{custdetails/First_Name_out}&nbsp;<span>{custdetails/Surname_out}</span></span></span></span></p>\\n<p><span style=\\\"font-family: arial, helvetica, sans-serif; font-size: 12pt;\\\">Reference: {reference}</span></p>\\n</div>\\n</div>\",\"attachments\":\"\"}",
+        "log_only_on_error": 0,
+        "error_notification": "{\"LIM_id\":\"3f07ecf4-0dfa-11e2-b0b9-12313b03ed59\",\"LIM_name\":\"LIM14\",\"recipients_to\":\"daniela.dutu@portsmouthcc.gov.uk\"}"
+    }
+]
